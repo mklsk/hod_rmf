@@ -2,57 +2,45 @@ body, html {
 
   font-family: "Georgia";
   margin: 0px;
- 
-}
-
-p {
-
-    font-family: "Myriad Pro";
-
-}
-
-br {
-
-  margin: 50px;
-
-}
-
-.wrapper {
-
-  width: 100%;
-  position: relative;
-
-}
-
-.header {
-
-  background-image: "../img/header_bg.jpg";
-}
-
-.header, .goal_task, .analysis, .chairs {
-
-  display: flex;
-  width: 100%;
-  position: relative;
-}
-
-.background {
-
   width: 100%;
   height: 100%;
 
 }
 
-.header .logo {
+section {
 
-  position: absolute;
-  left: 255px;
-  top: 110px;
-  width: 43px;
-  height: 56px;
+  display: flex;
+  position: relative;
+}
+
+p {
+  font-family: "Myriad Pro";
+}
+
+br {
+  margin: 50px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+
+  background-image: url("../img/header_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 920px;
+  display: inline-block;
 
 }
 
+ .logo {
+
+  margin: 8% 0 0 15.5%;
+  display: block
+
+}
 
 .header .rect {
 
@@ -61,313 +49,194 @@ br {
   border-style: solid;
   opacity: 0.369;
   position: absolute;
-  left: 125px;
-  top: 290px;
-  width: 260px;
-
+  margin: 7% 0 0 3.1%;
 }
 
-.header .descrp {
+.header h3 {
 
-  margin-top: 78px;
-
-}
-
-.header h3  {
-
-  font-size: 5px;
+  font-size: 24px;
   color: rgba(36, 33, 28, 0.769);
-  text-transform: uppercase;
-  line-height: 3.542;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
-  left: 280px;
-  top: 340px;
   font-weight: 400;
-  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-family: "Georgia";
+  margin: 10% 0 0 6%;
 
 }
 
 .header h1 {
-  font-size: 20px;
+
+  font-size: 100px;
   color: rgba(36, 33, 28, 0.851);
   line-height: 0.85;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
-  left: 670px;
-  top: 400px;
   font-weight: 400;
-  letter-spacing: 5px;
+  letter-spacing: 20px;
+  margin: 0 0 0 6%;
+}
+
+.header .toptext {
+
+  margin: 0.8% 0 0 6%;
 }
 
 .header p {
-  font-size: 3.5px;
+  font-size: 16px;
   color: rgb(110, 109, 107);
   line-height: 1.375;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
-  left: 306px;
-  top: 550px;
-  width: 65px;
-  height: 33.647px;
+  width: 300px;
+  margin: 1.5% 0 0 6%;
 }
 
 
 .goal_task {
 
   width: 100%;
-  height: 100%;
+  display: flex;
+
+}
+
+.goal_task_part {
+
+  height: 450px;
+  display: inline-block;
+  background-size: cover;
   position: relative;
-
 }
 
-.goal_task .rect, .goal_task .rect.right {
-  border-width: 1px;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  opacity: 0.102;
+#goal {
+
+  width: 50%;
+  background-image: url("../img/goal_bg.jpg");
+  background-size: cover;
+}
+
+#task {
+
+  width: 50%;
+  background-image: url("../img/tasks_bg.jpg"); 
+  background-size: cover;
+}
+
+.goal_task .rect {
+
   position: absolute;
-  left: 50px;
-  top: 100px;
-  width: 115px;
-
+  left: 67px;
+  top: 130px;
 }
 
-.goal_task .rect.right {
+#task .rect {
 
-left: 890px;
-
+  left: 75px;
 }
-
-.goal_task h2 {
+.goal_task h2, .goal_task h3 {
 
   font-weight: 400;
-  font-size: 14.328px;
+  letter-spacing: 1.2px;
+  font-size: 72px;
   color: rgb(19, 18, 16);
-  line-height: 1.2;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
-  left: 170px;
-  top: 150px;
-
+  display: inline-block;
+  margin-bottom: 0;
 }
 
-.goal_task h2.tasks {
+.goal_task h3 {
 
-  color: white;
-  left: 1000px;
+  font-size: 40px;
+}
 
+.goal_task .text {
+
+  margin: 10% 0 0 14%;
 }
 
 .goal_task p {
-  font-size: 3.5px;
+
+  font-size: 16px;
   color: rgb(19, 18, 16);
   line-height: 1.375;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
-  left: 325px;
-  top: 230px;
-  width: 105px;
-  height: 7.379px;
+  width: 460px;
+  font-weight: 400;
 }
 
-.goal_task p.tasks {
+.goal_task #task p, .goal_task #task h2, .goal_task #task h3 {
 
   color: white;
-  left: 1160px;
-  width: 117px;
-
 }
 
+.goal_task #task p {
+
+  width: 500px;
+}
+
+.analysis {
+
+  background-image: url("../img/analytics_bg.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 1057px;
+}
+
+.chairs {
+
+  background-image: url("../img/chairs.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 1992px;
+}
 
 .process {
 
   font-family: "Georgia";
-  font-size: 5px;
+  font-size: 24px;
   font-style: italic;
-  line-height: 1.2;
-  text-align: left;
-  -moz-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -webkit-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  -ms-transform: matrix( 5.02508983338506,0,0,5.02508983338506,0,0);
-  position: absolute;
- 
-
 }
 
 .analysis .process {
 
   color: rgb(109, 94, 68);
-  left: 850px;
-  top: 290px;
-
+  margin: 280px 0 0 48%;
 }
 
 .analysis h1  {
 
   font-size: 120px;
   font-weight: 400;
-  letter-spacing: 1.8px;
   color: rgb(240, 240, 240);
   line-height: 1.2;
-  text-align: left;
+  margin: -2% 0 0 21%;
+}
+
+.twozero {
+
+  font-family: "Lato";
+  font-size: 400px;
+  font-weight: 100;
+  color: rgba(96, 69, 53, 0.141);
   position: absolute;
-  left: 340px;
-  top: 170px;
+  margin: 0;
+  left: 630px;
+  top: 230px;
 
 }
+
 
 .trophy {
 
   position: absolute;
-  left: 30px;
-  top: 30px;
-  width: 800px;
-  z-index: 1;
-}
+  left: 10px;
+  top: -120px;
 
-.analysis .block {
-
-  position: absolute; 
-  top: 750px;
-
-}
-
-.analysis .block.data {
-
-  z-index: 1;
-  left: 100px;
-
-}
-
-.analysis .block.analytics {
-
-  z-index: 1;
-  left: 630px;
-
-}
-
-.analysis .block.idea {
-
-  z-index: 1;
-  left: 1200px;
-
-}
- 
-.analysis .block p {
-
-  font-size: 16px;
-  font-family: "Ubuntu";
-  color: rgb(183, 167, 139);
-  line-height: 2;
-  text-align: left;
-  position: relative;
-  left: 40px;
-  margin-bottom: 0px;
-
-}
-
-.analysis .block h2 {
-
-  font-size: 30px;
-  font-family: "Ubuntu";
-  color: rgb(220, 220, 220);
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  text-align: left;
-  position: relative;
-  left: 40px;
-  margin-top: 0px;
-}
-
-
-.analysis .block .rect {
-
-  position: absolute;
-  top: 125px;
-}
-
-.analysis .lens {
-
-  position: absolute;
-  left: 700px;
-  top: 650px;
-
-}
-
-.analysis .bulb {
-
-  position: absolute;
-  left: 1350px;
-  top: 650px;
-
-}
-
-.chairs .brace, .chairs .zero, .chairs .two   {
-
-
-  position: absolute;
-
-}
-
-.chairs .brace {
-
-  left: 290px;
-  top: 470px;
-
-
-}
-
-.chairs .zero {
-
-  z-index: 2;
-  left: 580px;
-  top: 580px;
-  height: 320px;
-  
-}
-
-
-.chairs .two {
-
-  left: 880px;
-  top: 580px;
-  height: 320px;
-  
 }
 
 .chairs .process {
 
-  top: 700px;
-  left: 875px;
-  font-size: 4.776px;
   color: rgba(89, 80, 65, 0.969);
-  line-height: 1.2;
-
+  margin: 410px 0 0 51%;
 }
 
 .chairs .title {
-
-  position: absolute;
-  top: 680px;
-  left: 190px;
-  z-index: 2;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0 9%;
 
 }
 
@@ -375,192 +244,24 @@ left: 890px;
 
   font-weight: 400;
   display: inline;
-  font-size: 110px;
+  font-size: 100px;
   color: rgb(255, 255, 255);
   font-family: "Georgia";
-  line-height: 1.2;
-  -moz-transform: matrix( 0.88017874708062,0,0,0.88017874708062,0,0);
-  -webkit-transform: matrix( 0.88017874708062,0,0,0.88017874708062,0,0);
-  -ms-transform: matrix( 0.88017874708062,0,0,0.88017874708062,0,0);
-
+  margin: 0;
 }
 
 .chairs .title h1 {
 
-  font-size: 130px;
+  font-size: 120px;
   color: #fdf7d6;
-
 }
 
 .chairs .title h2  {
 
-  font-size: 110px;
   color: #2c2a25;
 
 }
 
-.sideblock.twoone {
-
-  position: absolute;
-  bottom: 240px;
-  left: 240px;
-
-}
-
-.heading p, .heading h2 {
-
-  display: inline;
-}
-
-
-.sideblock p {
-
-  font-size: 16px;
-  font-family: "Myriad Pro";
-  color: rgb(110, 101, 83);
-  line-height: 1.8;
-}
-
-.heading .num {
-
-  font-size: 16px;
-  font-family: "Ubuntu";
-  color: rgb(111, 101, 84);
-  text-transform: uppercase;
-  line-height: 1.2;
-  position: relative;
-  bottom: 5px;
-
-}
-
-.heading h2 {
-
-  font-weight: 900;
-  font-size: 28px;
-  font-family: "Myriad Pro";
-  color: rgb(82, 76, 51);
-  text-transform: uppercase;
-  line-height: 1.2;
-
-
-}
-
-.background.white {
-
-  position: absolute;
-
-}
-
-.colors {
-
-  position: relative;
-
-
-}
-
-.color_wrap {
-
-  margin: 0 auto;
-  width: 64%;
-
-
-
-}
-
-.colors h2 {
-
-  font-size: 30px;
-  font-weight: 400;
-  font-family: "Ubuntu";
-  color: rgb(48, 48, 48);
-  line-height: 1.2;
-  text-align: center;
-
-}
-
-.colors p {
-
-  font-size: 20px;
-  font-family: "Ubuntu";
-  color: rgb(48, 48, 48);
-  line-height: 1.2;
-  margin-bottom: 5px;
-
-}
-
-.color {
-
-  display: inline-block;
-  margin-right: 60px;
-
-}
-
-.brick {
-
-  width: 55px;
-  height: 15px;
-
-}
-
-.color.forms {
-
-margin-right: 0px;
-
-}
-
-.color.head .brick {
-  background: #c0c0c0;
-}
-
-.color.button .brick {
-  background: #b8e540;
-}
-
-.color.links .brick {
-  background: #f87047;
-}
-
-.color.images .brick {
-  background: #e5e3b5;
-}
-
-.color.h1 .brick {
-  background: #91e5b1;
-}
-
-.color.h2 .brick {
-  background: #8ec7e5;
-}
-
-.color.galleries .brick {
-  background: #ddd3f7;
-}
-
-.color.filters .brick {
-  background: #dca2e5;
-}
-
-.color.forms .brick {
-  background: #f7d475;
-}
-
-.wireframes{
-
-  position: relative;
-  top: 400px;
-}
-
-.sideblock.wires {
-
-  position: relative;
-  left: 240px;
-}
-
-.sideblock.rect {
-
-  position: absolute;
-  left: -40px;
-}
 
 
 
