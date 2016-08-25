@@ -3,7 +3,6 @@ body, html {
   font-family: "Georgia";
   margin: 0px;
   width: 100%;
-  height: 100%;
 
 }
 
@@ -11,6 +10,7 @@ section {
 
   display: flex;
   position: relative;
+  width: 100%
 }
 
 p {
@@ -172,15 +172,14 @@ br {
   background-image: url("../img/analytics_bg.jpg"); 
   background-size: cover;
   width: 100%;
-  height: 1057px;
+  height: 1167px;
 }
+
 
 .chairs {
 
-  background-image: url("../img/chairs.jpg"); 
-  background-size: cover;
   width: 100%;
-  height: 1992px;
+  display: block;
 }
 
 .process {
@@ -205,6 +204,91 @@ br {
   margin: -2% 0 0 21%;
 }
 
+.analysis_wrap {
+
+  display:flex;
+}
+
+.analysis .block {
+
+  width: 25%;
+  display: inline-block;
+  position: relative;
+  margin-top: 10%;
+}
+
+.analysis #data {
+
+  margin-left: 4%;
+  width: 20%;
+}
+
+.analysis #analytics {
+
+  margin-left: 10%;
+  width: 25%;
+}
+
+.analysis #idea {
+
+  margin-left: 10%;
+  width: 25%;
+}
+
+.analysis .block #lens {
+
+  margin: 0 0 -17% 30%;
+}
+
+.analysis .block  #file {
+
+  margin: 0 0 -7% 40%;
+}
+
+.analysis .block  #bulb {
+
+  margin: 0 0 -20% 40%;
+}
+
+.analysis .block p {
+
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(183, 167, 139);
+  line-height: 1.625;
+  margin: 16px 0 0 60px;
+}
+
+.analysis .block h2 {
+
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(220, 220, 220);
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  position: relative;
+  left: 60px;
+  margin-top: 0px;
+}
+
+
+.analysis .block .rect {
+
+  position: absolute;
+  left: 15px;
+  top: 205px;
+}
+
+.ux {
+
+  width: 100%;
+  background-image: url("../img/chairs.jpg"); 
+  background-size: cover;
+  height: 1551px;
+}
+
 .twozero {
 
   font-family: "Lato";
@@ -215,29 +299,26 @@ br {
   margin: 0;
   left: 630px;
   top: 230px;
-
 }
-
 
 .trophy {
 
   position: absolute;
   left: 10px;
   top: -120px;
-
 }
 
 .chairs .process {
 
   color: rgba(89, 80, 65, 0.969);
-  margin: 410px 0 0 51%;
+  margin: 450px 0 0 43%;
 }
 
 .chairs .title {
   position: relative;
   z-index: 1;
-  margin: 0 0 0 9%;
-
+  margin: -45px 0 0 9%;
+  width: auto;
 }
 
 .chairs .title h1, .chairs .title h2  {
@@ -259,10 +340,178 @@ br {
 .chairs .title h2  {
 
   color: #2c2a25;
-
 }
 
+#twoone {
 
+  margin: 20% 0 0 10%;
+}
+
+.sideblock p {
+
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(110, 101, 83);
+  line-height: 1.625;
+}
+
+.sideblock .heading p, .sideblock .heading h2 {
+
+  display: inline;
+}
+
+.sideblock .heading h2 {
+
+  font-weight: 900;
+  font-size: 28px;
+  font-family: "Myriad Pro";
+  color: rgb(82, 76, 51);
+  text-transform: uppercase;
+}
+
+.sideblock .heading .num {
+
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(111, 101, 84);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  bottom: 5px;
+}
+
+#wires {
+
+  margin: 15% 0 0 10%;
+}
+
+.sideblock .rect {
+
+  margin: 0 0 0 -40px;
+  position: absolute;
+}
+
+.colors {
+
+  margin: 16% 0 0 0;
+}
+
+.colors h2 {
+
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  color: rgb(48, 48, 48);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.colors p {
+
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(48, 48, 48);
+  margin-bottom: 5px;
+}
+
+.color_wrap {
+
+  margin: 0 auto;
+  width: 70%;
+}
+
+.color {
+
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.brick {
+
+  width: 45px;
+  height: 12px;
+}
+
+.color.forms {
+margin-right: 0px;
+}
+
+.color.head .brick {
+  background: #c0c0c0;
+}
+
+.color.button .brick {
+  background: #b8e540;
+}
+
+.color.links .brick {
+  background: #f87047;
+}
+
+.color.images .brick {
+  background: #e5e3b5;
+}
+
+.color.h1 .brick {
+  background: #91e5b1;
+}
+
+.color.h2 .brick {
+  background: #8ec7e5;
+}
+
+.color.galleries .brick {
+  background: #ddd3f7;
+}
+
+.color.filters .brick {
+  background: #dca2e5;
+}
+
+.color.forms .brick {
+  background: #f7d475;
+}
+
+.platforms {
+
+  text-align: center;
+}
+
+.platform {
+
+  text-align: center;
+}
+
+#desktop {
+
+  margin: 70px 0 150px 0;
+}
+
+#tablet {
+
+  margin: 0 0 120px 0;  
+}
+
+#mobile {
+
+  margin: 0 0 270px 0;
+}
+
+.platform h2 {
+
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(118, 118, 118);
+  margin-bottom: 30px;
+}
+
+.ui {
+
+  width: 100%;
+  background-image: url("../img/cloud_bottom.jpg"); 
+  background-size: cover;
+  height: 2100px;
+}
 
 
 
