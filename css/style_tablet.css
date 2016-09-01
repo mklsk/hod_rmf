@@ -1,0 +1,240 @@
+.fonts {
+
+  padding: 0 0 0 150px;
+}
+
+.font_block h3 {
+
+  font-size: 26px;
+}
+
+.goal_task #task p {
+
+  width: 420px;
+}
+
+.twozero {
+
+  left: 400px;
+  top: 230px;
+}
+
+.sideblock p {
+
+  width: 250px;
+}
+
+
+.goal_task p {
+
+  width: 410px;
+}
+
+.header .rect {
+
+    margin: 120px 0 0 55px;
+}
+
+.header h1 {
+
+  font-size: 90px;
+  letter-spacing: 16px;
+}
+
+.header h3 {
+
+  margin: 190px 0 0 100px;
+}
+
+.analysis h1 {
+
+    text-align: center;
+    margin: -2% 0 0 0;
+    font-size: 110px;
+}
+
+.analysis {
+
+    margin-bottom: -5px;  
+}
+
+.analysis .process {
+    margin: 250px 0 0 720px;
+}
+
+.analysis_icons  {
+
+  padding-top: 250px;
+}
+
+.analysis .block  {
+
+  width: 25%;
+}
+
+.analysis .block h2 {
+
+  font-size: 27px;
+}
+
+.twozero {
+
+	left: 470px;
+	top: 170px;
+}
+
+.colors {
+
+	margin-top: 10%;
+}
+
+.color_wrap {
+
+	width: 85%
+}
+
+#wires {
+    margin: 3% 0 0 10%;
+}
+
+#desktop {
+    margin: 70px 0 100px 0;
+}
+
+#tablet {
+    margin: 0 0 70px 0;
+}
+
+#mobile {
+    margin: 0 0 150px 0;
+}
+
+.trophy {
+
+  top: -200px;
+}
+
+#all_title_ch {
+
+    margin: 380px 0 0 145px;
+    position: relative;
+    z-index: 2;
+}
+
+.ui {
+
+  background-size: contain;
+  background-position:center top;
+  background-repeat:no-repeat;
+  height: auto;
+}
+
+.ui .all_title {
+
+    margin: 120px 0 0 0;
+}
+
+.ui .title {
+
+    margin-left: 70px;
+}
+
+#white  {
+
+	left: 13%;
+}
+
+#white p {
+    width: 80%;
+}
+
+#aqua {
+
+	left: 58%;
+}
+
+#khaki {
+
+    left: 69%;
+}
+
+#brown {
+
+    left: 67%;
+}
+
+#brown p {
+    width: 65%;
+}
+
+.side_sec {
+
+  margin-top: 0;
+}
+
+
+@media (max-width: 1290px) {
+
+  .expr {
+
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .fonts, .side_sec, #typo {
+
+    display: block;
+
+  }
+
+  .sideblock p {
+
+    width: 400px;
+  }
+
+  #typo {
+
+    margin-bottom: 100px;
+  }
+
+  .fonts {
+
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+
+  .font_block {
+
+    text-align: center;
+  }
+
+  .analysis_icons {
+
+    padding-top: 180px;
+  }
+
+}
+
+@media (max-width: 1055px) {
+
+  .header .rect {
+
+    margin: 180px 0 0 45px;
+    width: 245px;
+    height: 245px;
+  }
+
+}
+
+@media (max-width: 1030px) {
+
+    .analysis .block {
+      width: 27%;
+  }
+
+}
+
+
+

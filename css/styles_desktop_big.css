@@ -1,0 +1,1254 @@
+body, html {
+
+  font-family: "Georgia";
+  margin: 0px;
+  width: 100%;
+
+}
+
+section {
+
+  display: flex;
+  position: relative;
+  width: 100%
+}
+
+p {
+  font-family: "Myriad Pro";
+}
+
+br {
+  margin: 50px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+
+  background-image: url("../img/header_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 920px;
+  display: inline-block;
+}
+
+ .logo {
+
+  margin: 127px 0 0 255px;
+  display: block
+}
+
+.header .rect {
+
+  border-width: 1px;
+  border-color: rgb(195, 155, 79);
+  border-style: solid;
+  opacity: 0.369;
+  position: absolute;
+  margin: 120px 0 0 55px;
+  width: 235px;
+  height: 235px;
+}
+
+.header h3 {
+
+  font-size: 24px;
+  color: rgba(36, 33, 28, 0.769);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  font-family: "Georgia";
+  margin: 170px 0 0 100px;
+}
+
+.header h1 {
+
+  font-size: 100px;
+  color: rgba(36, 33, 28, 0.851);
+  line-height: 0.85;
+  font-weight: 400;
+  letter-spacing: 20px;
+  margin: 0 0 0 100px;
+}
+
+.header .toptext {
+
+  margin: 0.8% 0 0 100px;
+}
+
+.header p {
+  font-size: 16px;
+  color: rgb(110, 109, 107);
+  line-height: 1.375;
+  width: 300px;
+  margin: 1.5% 0 0 100px;
+}
+
+
+.goal_task {
+
+  width: 100%;
+  display: flex;
+
+}
+
+.goal_task_part {
+
+  height: 450px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+}
+
+#goal {
+
+  width: 50%;
+  background-image: url("../img/goal_bg.jpg");
+  background-size: cover;
+}
+
+#task {
+
+  width: 50%;
+  background-image: url("../img/tasks_bg.jpg"); 
+  background-size: cover;
+}
+
+.goal_task .rect {
+
+  position: absolute;
+  left: -50px;
+  top: 45px;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  opacity: 0.102;
+  width: 104px;
+  height: 104px;
+}
+
+#task .rect {
+
+  left: -40px;
+}
+.goal_task h2, .goal_task h3 {
+
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  font-size: 72px;
+  color: rgb(19, 18, 16);
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.goal_task h3 {
+
+  font-size: 40px;
+}
+
+.goal_task .text {
+
+  margin: 10% 0 0 14%;
+  position: relative;
+}
+
+.goal_task p {
+
+  font-size: 16px;
+  color: rgb(19, 18, 16);
+  line-height: 1.375;
+  width: 460px;
+  font-weight: 400;
+}
+
+.goal_task #task p, .goal_task #task h2, .goal_task #task h3 {
+
+  color: white;
+}
+
+.goal_task #task p {
+
+  width: 500px;
+}
+
+.analysis {
+
+  background-image: url("../img/analytics_bg.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 1350px;
+}
+
+.analysis_block {
+
+  max-height: 300px;
+}
+
+
+.chairs {
+
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 800px;
+}
+
+.process {
+
+  font-family: "Georgia";
+  font-size: 24px;
+  font-style: italic;
+}
+
+.analysis .process {
+
+  color: rgb(109, 94, 68);
+  margin: 280px 0 0 48%;
+}
+
+.analysis h1  {
+
+  font-size: 120px;
+  font-weight: 400;
+  color: rgb(240, 240, 240);
+  line-height: 1.2;
+  margin: -2% 0 0 21%;
+}
+
+.analysis_icons  {
+
+  padding-top: 170px;
+  display: flex;
+}
+
+.analysis_icons img {
+
+  display: inline-block;
+  margin: auto;
+} 
+
+.analysis .block {
+
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.analysis_blocks {
+
+  display: flex;
+  margin-top: -30px;
+}
+
+.analysis .block p {
+
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(183, 167, 139);
+  line-height: 1.625;
+  margin-bottom: 0;
+ 
+}
+
+.analysis .block h2 {
+
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(220, 220, 220);
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  position: relative;
+  margin-top: 0px;
+}
+
+
+.analysis .block .rect {
+
+  position: absolute;
+  left: -30px;
+  top: 110px;
+}
+
+.ux {
+
+  width: 100%;
+  background-image: url("../img/chairs.jpg"); 
+  background-size: cover;
+  height: 1551px;
+  position: relative;
+  margin-top: -1px;
+}
+
+.twozero {
+
+  font-family: "Lato";
+  font-size: 400px;
+  font-weight: 100;
+  color: rgba(96, 69, 53, 0.141);
+  margin: 0 0 0 0;
+  position: absolute;
+  margin: 0;
+  left: 42%;
+  top: 47%;
+  z-index: 2;
+}
+
+.trophy .rect {
+  border-width: 3px;
+  border-color: rgb(197, 197, 197);
+  border-style: solid;
+  opacity: 0.22;
+  width: 444px;
+  height: 20px;
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  left: 32%;
+  bottom: 5%;
+  z-index: 0;
+}
+
+
+.frame {
+
+  border: solid;
+  border-width: 3px;
+  position: absolute;
+}
+
+.frame.wood {
+
+  opacity: 0.561;
+  width: 415px;
+  height: 415px;
+  border-color: rgb(243, 209, 173);
+  z-index: 0;
+  top: 110px;
+  left: 120px;
+  position: absolute;
+}
+
+
+.trophy {
+
+  position: relative;
+  top: -12%;
+}
+
+.trophy_img {
+
+  z-index: 1;
+  position: relative;
+}
+
+#all_title_ch {
+
+  top: 400px;
+  left: 135px;
+  position: absolute
+}
+
+.chairs .process {
+
+  color: rgba(89, 80, 65, 0.969);
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin: 0 0 -50px 570px;
+  width: 100px;
+}
+
+.chairs .title {
+
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.chairs .title h1, .chairs .title h2  {
+
+  font-weight: 400;
+  display: inline;
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  font-family: "Georgia";
+  margin: 0;
+}
+
+.chairs .title h1 {
+
+  font-size: 120px;
+  color: #fdf7d6;
+}
+
+.chairs .title h2  {
+
+  color: #2c2a25;
+}
+
+#twoone {
+
+  margin: 20% 0 0 10%;
+}
+
+
+.sideblock p {
+
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(110, 101, 83);
+  line-height: 1.625;
+  width: 330px;
+}
+
+.sideblock .heading p, .sideblock .heading h2 {
+
+  display: inline;
+}
+
+.sideblock .heading h2 {
+
+  font-weight: 900;
+  font-size: 28px;
+  font-family: "Myriad Pro";
+  color: rgb(82, 76, 51);
+  text-transform: uppercase;
+}
+
+.sideblock .heading .num {
+
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(111, 101, 84);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+  bottom: 5px;
+}
+
+#wires {
+
+  margin: 15% 0 0 10%;
+}
+
+.sideblock .rect {
+
+  margin: 0 0 0 -40px;
+  position: absolute;
+}
+
+.colors {
+
+  margin: 16% 0 0 0;
+}
+
+.colors h2 {
+
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  color: rgb(48, 48, 48);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.colors p {
+
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(48, 48, 48);
+  margin-bottom: 5px;
+}
+
+.color_wrap {
+
+  margin: auto;
+  width: 70%;
+  display: flex;
+}
+
+.color {
+
+  display: inline-block;
+  width: 80px;
+  margin: auto;
+}
+
+.brick {
+
+  width: 45px;
+  height: 12px;
+}
+
+.color.forms {
+margin-right: 0px;
+}
+
+.color.head .brick {
+  background: #c0c0c0;
+}
+
+.color.button .brick {
+  background: #b8e540;
+}
+
+.color.links .brick {
+  background: #f87047;
+}
+
+.color.images .brick {
+  background: #e5e3b5;
+}
+
+.color.h1 .brick {
+  background: #91e5b1;
+}
+
+.color.h2 .brick {
+  background: #8ec7e5;
+}
+
+.color.galleries .brick {
+  background: #ddd3f7;
+}
+
+.color.filters .brick {
+  background: #dca2e5;
+}
+
+.color.forms .brick {
+  background: #f7d475;
+}
+
+.platforms {
+
+  text-align: center;
+}
+
+.platform {
+
+  text-align: center;
+}
+
+.platform img {
+
+  max-width: 90%;
+}
+
+#desktop {
+
+  margin: 70px 0 150px 0;
+}
+
+#tablet {
+
+  margin: 0 0 120px 0;  
+}
+
+#mobile {
+
+  margin: 0 0 270px 0;
+}
+
+.platform h2 {
+
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: rgb(118, 118, 118);
+  margin-bottom: 30px;
+}
+
+.ui {
+
+  width: 100%;
+  background-image: url("../img/cloud_bottom.jpg"); 
+  background-size: cover;
+  height: 2000px;
+}
+
+
+.ui .all_title {
+
+    margin: 200px 0 0 0;
+}
+
+.ui .title {
+
+  text-align: center;
+  margin-right: 50px;
+}
+
+.ui .process {
+
+  color: #4b8481;
+  margin: 0 0 -35px 57.5%;
+}
+
+
+.ui .title h1, .ui .title h2  {
+
+  font-weight: 400;
+  display: inline;
+  font-size: 90px;
+}
+
+.ui .title h1 {
+
+  font-size: 120px;
+  color: #38362d;
+}
+
+.ui .title h2  {
+
+  color: #548a6b;
+}
+
+#slash {
+
+  color: #7d6a1b
+}
+
+#inter {
+
+  color: #357273;
+}
+
+#swatches {
+
+  margin: 20% 0 -120px 10%;
+}
+
+#swatches p {
+
+  width: 300px;
+}
+
+.color_scheme {
+
+  display: flex;
+  position: relative;
+}
+
+#circle {
+
+  margin: auto;
+  background-image: url('../img/piechart.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 510px;
+  width: 488px;
+  padding-left: 59px;
+  font-family: "Myriad Pro";
+}
+
+.text_center {
+
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 260px;
+  text-align: center;
+  height: 100px;
+}
+
+.text_center h3, .text_center p {
+
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: rgba(41, 30, 17, 0.659);
+}
+
+.text_center p {
+
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.tiny_br {
+
+  height: 0;
+}
+
+#assoc {
+
+  padding: 150px 0 0 50px;
+  color: rgba(0, 0, 0, 0.349);
+}
+
+.flying_desc {
+
+  position: absolute;
+}
+
+#aqua {
+
+  top: -65px;
+  left: 57%;
+}
+
+#aqua p {
+
+  width: 60%;
+}
+
+#khaki {
+
+  top: 160px;
+  left: 66%;
+}
+
+#khaki p {
+
+  width: 55%;
+}
+
+#brown {
+
+  top: 405px;
+  left: 64%;
+}
+
+#brown p {
+
+  width: 60%;
+}
+
+#white {
+
+  top: 320px;
+  left: 15%;
+}
+
+#white p {
+
+  width: 60%;
+}
+
+.flying_desc h3 {
+
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  color: rgb(41, 30, 17);
+  margin-bottom: 5px;
+}
+
+.flying_desc p {
+
+  color: rgb(0, 0, 0);
+  margin-top: 3px;
+}
+
+.color_code p, img {
+
+  display: inline-block;
+}
+
+.color_code p {
+
+  color: #818181;
+  width: auto ! important;
+}
+
+.color_code img {
+
+  padding-bottom: 3px;
+}
+
+.advanced  {
+
+  padding-top: 100px;
+
+}
+
+.advanced .text_center {
+
+  margin: auto;
+  height: 90px;
+}
+
+.advanced h3, .advanced p {
+
+  font-size: 18px;
+  font-family: "Myriad Pro";
+}
+
+.advanced p {
+
+  font-size: 14px;
+}
+
+.text_wrap {
+
+  display: flex;
+}
+
+.color_single {
+
+  display: inline-block;
+  margin: 0 80px 0 80px;
+}
+
+.color_brick {
+
+ width: 70px;
+ height: 38px;
+ display: flex;
+ margin: 0;
+} 
+
+
+#grey_wrap {
+
+  display: flex;
+} 
+
+#dark {
+
+  background-color: rgb(67, 64, 57);
+}
+
+#light {
+
+  background-color: #eeeeee;
+}
+
+.color_box p {
+
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #333333;
+  margin-bottom: 3px;
+}
+
+.color_box .greyer {
+
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #8e8e8e;
+  margin-top: 3px;
+}
+
+#aquam {
+
+  background-color: #5eefbe;
+}
+
+#dkhaki {
+
+  background-color: #faefc4;
+}
+
+.color_wrapper {
+
+  margin: auto;
+  padding-right: 40px;
+}
+
+.color_box {
+
+  display: flex;
+}
+
+.img_wrap {
+
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.img_wrap img {
+
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.side_sec {
+
+  width: 100%;
+  margin-top: 0;
+}
+
+#typo {
+
+  margin: 0 0 0 10%;
+  display: inline-block;
+}
+
+.fonts {
+
+  display: inline-block;
+  padding: 0 0 0 200px;
+}
+
+.font_block p {
+
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 7px;
+}
+
+.font_block h3 {
+
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.3em;
+  margin: 5px 0 5px 0;
+}
+
+#ubu_light {
+
+  margin-top: -20px;
+}
+
+#ubu_light p {
+
+  font-family: "Ubuntu";
+  font-weight: lighter;
+}
+
+#ubu_light h3 {
+
+  font-family: "Ubuntu";
+  font-weight: lighter;
+}
+
+#ubu_med p {
+
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+#ubu_med h3 {
+
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+#georg {
+
+  margin-bottom: 0;
+}
+
+#georg p {
+
+  font-family: "Georgia";
+  font-weight: 500;
+}
+
+#georg h3 {
+
+  font-family: "Georgia";
+  font-weight: 500;
+}
+
+.side_sec {
+
+  display: flex;
+}
+
+.font_block {
+
+  margin-bottom: 50px;
+}
+
+.block_wrap {
+
+  display: block;
+  width: 100%
+}
+
+.input {
+
+  margin-top: 30px;
+}
+
+.form_pic {
+
+  display: flex;
+  margin-top: 80px;
+}
+
+.form_pic img {
+
+  margin: auto;
+}
+
+#kit {
+
+  margin: 0 0 0 10%;
+}
+
+#result {
+
+  margin: 120px 0 0 10%;
+}
+
+.final h1 {
+
+
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 0 0 0;
+}
+
+.thanks {
+
+  margin: 0 0 -5px 0;
+}
+
+.thanks hr {
+
+  width: 100px;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+
+.thanks p {
+
+  font-size: 16px;
+  font-style: italic;
+  display: inline-block;
+  font-family: "Georgia";
+}
+
+.final {
+
+  font-family: "Georgia";
+  text-align: center;
+  color: #363636;
+  margin-top: 500px;
+}
+
+.press img {
+
+  margin-bottom: -3px;
+}
+
+.press p {
+
+  font-family: "Ubuntu";
+  font-weight: 100;
+  font-size: 13px;
+  color: #363636;
+}
+
+.final p {
+
+  font-family: "Ubuntu";
+  font-weight: 100;
+  font-size: 13px;
+  color: #363636;
+}
+
+.press img, .press p {
+
+  display: inline-block;
+}
+
+
+
+
+@media (min-width: 1650px) {
+
+  .analysis_icons {
+      padding-top: 12%;
+  }
+
+}
+
+@media (min-width: 2000px) {
+
+  .analysis_icons {
+      padding-top: 17%;
+  }
+
+}
+
+@media (max-width: 2000px) {
+
+  .trophy {
+
+    top: -135px;
+  }
+
+  .twozero {
+
+    left: 41.7%;
+    top: 50%;
+  }
+
+  .trophy .rect {
+
+    left: 30%;
+    bottom: 4%;
+  }
+
+}
+
+@media (max-width: 1921px) {
+
+  .trophy {
+
+    top: -135px;
+  }
+
+  .twozero {
+
+    left: 40.5%;
+    top: 47%;
+  }
+
+  .trophy .rect {
+
+    left: 29%;
+    bottom: 5%;
+  }
+
+}
+
+@media (max-width: 1800px) {
+
+  .twozero {
+
+    left: 38.8%;
+    top: 45.5%;
+  }
+
+  .trophy .rect {
+
+    left: 26%;
+    bottom: 8%;
+  }
+
+  .trophy {
+
+    top: -150px;
+  }
+
+}
+
+@media (max-width: 1700px) {
+
+  .trophy {
+
+    top: -160px;
+  }
+
+  .twozero {
+
+    left: 37.7%;
+    top: 44.5%;
+  }
+
+  .trophy .rect {
+
+    left: 22.5%;
+    bottom: 9%;
+  }
+
+}
+
+@media (min-width: 1700px) {
+
+
+  .analysis {
+
+    background-image: url('../img/analytics_bg_large.jpg');  
+  }
+}
+
+@media (max-width: 1630px) {
+
+    .ui {
+
+      background-size: contain;
+      background-position:center top;
+      background-repeat:no-repeat;
+      height: auto;
+  }
+
+  .ui .all_title {
+
+    margin: 150px 0 0 50px;
+  }
+
+
+}
+
+@media (max-width: 1600px) {
+
+  .header h3 {
+
+      margin: 180px 0 0 100px;
+  }
+
+  #aqua {
+
+    left: 59%;
+  }
+
+  #khaki {
+
+    left: 68%;
+  }
+
+   #brown {
+
+    left: 68%;
+  }
+
+  .trophy {
+
+    top: -170px;
+  }
+
+  .twozero {
+
+    left: 36.7%;
+    top: 43.5%;
+  }
+
+  .trophy .rect {
+
+    left: 22.5%;
+    bottom: 9%;
+  }
+}
+
+@media (max-width: 1500px) {
+
+  .trophy {
+
+    top: -180px;
+  }
+
+  .twozero {
+
+    left: 35.5%;
+    top: 42.5%;
+  }
+
+  .trophy .rect {
+
+    left: 21%;
+    bottom: 10%;
+  }
+
+  #all_title_ch {
+
+    top: 400px;
+    left: 135px;
+  }
+
+}
+
+
+
+

@@ -4,10 +4,14 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ruzhanskaya Mebelnaya Fabrica</title>
-	<link rel="stylesheet" href="css/styles_proper.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:100,400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles_desktop_big.css" type="text/css">
+	<link rel='stylesheet' href='css/queries.css' rel="text/css"/>
+	<link rel='stylesheet' media='screen and (max-width: 1400px)' href='css/style_tablet.css'/>
+
 
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +23,7 @@
 		<section>
 			<div class="header">
 				<img class="logo" src="img/header_logo.png"/>
-				<img class="rect" src="img/header_rect.png"/>
+				<div class="rect"></div>
 				<h3>Ruzhanskaya</h3>
 				<h1>Furniture factory</h1>
 				<p class="toptext">Ruzhanskaya furniture factory was founded in September 1944.</p>
@@ -30,16 +34,16 @@
 		<section>
 			<div class="goal_task">
 				<div class="goal_task_part" id="goal">
-					<img class="rect" src="img/goal_rect.png"/>
 					<div class="text">
+						<div class="rect"></div>
 						<h2>G</h2><h3>oal</h3>
 						<p>Brand popularization through the development of a ecomerce-site for the furniture factory.</p>
 					</div>
 				</div>
 
 				<div class="goal_task_part" id="task">
-					<img class="rect" src="img/goal_rect.png"/>
 					<div class="text">
+						<div class="rect"></div>
 						<h2>T</h2><h3>asks</h3>
 						<p>Market analysis, identifying of the target audience, branding and sales increase in the virtual space by using brand popularization to attract dealers, the development of the promo-site.</p>
 					</div>
@@ -53,57 +57,63 @@
 				<h1>Business analytics</h1>
 
 				<div class="analysis_wrap">
-					<div class="block" id="data"> 
+
+					<div class="analysis_icons">
 						<img class="icon" id="file" src="img/analysis_file.png">
-						<img class="rect" src="img/anayltics_rect.png"/>
-						<p class="num">1.1</p>
-						<h2>Data collection</h2>
-						<br>
-						<p>
-						Study of the customer's company,<br> competitors and market position.</p>
-						<br>
-						<p>Search of the features and advantages <br>over competitors.</p>
-						<br>
-						<p>Identifying of the consumer group.</p>
-					</div>
-
-					<div class="block" id="analytics"> 
 						<img class="icon" id="lens" src="img/analysis_lens.png">
-						<img class="rect" src="img/anayltics_rect.png"/>
-						<p class="num">1.2</p>
-						<h2>Analytics</h2>
-						<br>
-						<p>
-						For 72 years on market the factory has
-						acquired several shops with the modern
-						equipment, making it easy to adapt the
-						production under individual requirements.
-						Over the entire period of time factory set up
-						more than 30 collections that are sold in own
-						retail chain.
-						It is possible to determine 20 companies<br>
-						among the local competitors.</p>
-
-						<p>The target audience is a buyer at the age of 29
-						 to 43 years. It was also found that mens buy
-						 more (63%) than woman (37%).
-						</p>
+						<img class="icon" id="bulb" src="img/analysis_bulb.png">
 					</div>
 
-					<div class="block" id="idea">
-						<img class="icon" id="bulb" src="img/analysis_bulb.png">
-						<img class="rect" src="img/anayltics_rect.png"/>
-						<p class="num">1.3</p>
-						<h2>Idea</h2>
-						<br>
-						<p>To develop a corporate website with the
-						 disign and functionality that will meet
-						 modern requirements.</p>
+					<div class="analysis_blocks">
+						<div class="block" id="analytics"> 
+							<img class="rect" src="img/anayltics_rect.png"/>
+							<p class="num">1.1</p>
+							<h2>Data Collection</h2>
+							<br>
+							<p>
+							Study of the customer's company, competitors and market position.</p>
+							<br>
+							<p>Search of the features and advantages over competitors.</p>
+							<br>
+							<p>Identifying of the consumer group.</p>
+						</div>
 
-						<p>To focus on the usability, style, presentation of
-						 the items, factory contact information and
-						 contact information of the entire stores
-						 network. </p>
+						<div class="block" id="analytics"> 
+							<img class="rect" src="img/anayltics_rect.png"/>
+							<p class="num">1.2</p>
+							<h2>Analytics</h2>
+							<br>
+							<p>
+							For 72 years on market the factory has
+							acquired several shops with the modern
+							equipment, making it easy to adapt the
+							production under individual requirements.
+							Over the entire period of time factory set up
+							more than 30 collections that are sold in own
+							retail chains.
+							It is possible to determine 20 companies 
+							among the local competitors.</p>
+							<br>
+							<p>The target audience is a buyer at the age of 29
+							 to 43 years. It was also found that mens buy
+							 more (63%) than woman (37%).
+							</p>
+						</div>
+
+						<div class="block" id="analytics"> 
+							<img class="rect" src="img/anayltics_rect.png"/>
+							<p class="num">1.3</p>
+							<h2>Idea</h2>
+							<br>
+							<p>To develop a corporate website with the
+							 disign and functionality that will meet
+							 modern requirements.</p>
+							 <br>
+							<p>To focus on the usability, style, presentation of
+							 the items, factory contact information and
+							 contact information of the entire stores
+							 network. </p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -112,15 +122,22 @@
 		<section>
 			<div class="ux">
 
+		
+		
+
 				<div class="chairs">
+					<div class="trophy">
+						<div class="frame wood"></div>
+						<img class="trophy_img" src="img/trophy.png">
+						<p class="twozero">02</p>
+						<div class="rect"></div>
+					</div>
 					<div id="all_title_ch"> 
 						<p class="process">Process</p>
 						<div class="title">
-							<h1>Design /</h1><h2>&nbspUser eXperience</h2>
+							<h1>Design /</h1><h2>&nbspUser <span class="expr">eXperience</span></h2>
 						</div>
 					</div>
-					<img class="trophy" src="img/trophy.png">
-					<p class="twozero">02</p>
 				</div>
 
 				<div class="sideblock" id="twoone">
@@ -337,16 +354,17 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<div class="img_wrap">
-						<img src="img/split_line.png">
-					</div>
+				<div class="img_wrap">
+					<img src="img/split_line.png">
 				</div>
 					
 			</div>
 		</section>
 
 		<section>
+
 			<div class="block_wrap">
 				<div class="side_sec">
 					<div class="sideblock" id="typo">
@@ -432,11 +450,7 @@
 					<p>Created by rlashkevich.com</p>
 				</div>
 			</div>
-		</section>
-
-
-		
-		
+		</section>	
 	</div>
 </body>
 </html>
