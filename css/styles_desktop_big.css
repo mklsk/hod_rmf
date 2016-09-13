@@ -102,6 +102,11 @@ br {
   position: relative;
 }
 
+.icon-hid {
+
+  display: none;
+}
+
 #goal {
 
   width: 50%;
@@ -274,6 +279,14 @@ br {
   position: absolute;
   left: -30px;
   top: 110px;
+
+  border-width: 3px;
+  border-color: rgb(253, 214, 142);
+  border-style: solid;
+  opacity: 0.102;
+  width: 81px;
+  height: 81px;
+
 }
 
 .ux {
@@ -281,7 +294,6 @@ br {
   width: 100%;
   background-image: url("../img/chairs.jpg"); 
   background-size: cover;
-  height: 1551px;
   position: relative;
   margin-top: -1px;
 }
@@ -395,7 +407,7 @@ br {
 
 #twoone {
 
-  margin: 20% 0 0 10%;
+  margin: 200px 0 0 10%;
 }
 
 
@@ -442,11 +454,19 @@ br {
 
   margin: 0 0 0 -40px;
   position: absolute;
+
+  border-width: 3px;
+  border-color: rgb(222, 218, 212);
+  border-style: solid;
+  opacity: 0.251;
+  width: 81px;
+  height: 81px;
+
 }
 
 .colors {
 
-  margin: 16% 0 0 0;
+  margin: 14% 0 0 0;
 }
 
 .colors h2 {
@@ -576,7 +596,7 @@ margin-right: 0px;
 
 .ui .all_title {
 
-    margin: 200px 0 0 0;
+    margin: 200px 0 0 90px;
 }
 
 .ui .title {
@@ -723,7 +743,7 @@ margin-right: 0px;
 #white {
 
   top: 320px;
-  left: 15%;
+  left: 18%;
 }
 
 #white p {
@@ -884,7 +904,7 @@ margin-right: 0px;
 .fonts {
 
   display: inline-block;
-  padding: 0 0 0 200px;
+  padding: 0 0 0 19%;
 }
 
 .font_block p {
@@ -1052,137 +1072,29 @@ margin-right: 0px;
   display: inline-block;
 }
 
+@media (min-width: 1401px) {
 
+  #all_title_ch {
 
-
-@media (min-width: 1650px) {
-
-  .analysis_icons {
-      padding-top: 12%;
-  }
-
-}
-
-@media (min-width: 2000px) {
-
-  .analysis_icons {
-      padding-top: 17%;
-  }
-
-}
-
-@media (max-width: 2000px) {
-
-  .trophy {
-
-    top: -135px;
-  }
-
-  .twozero {
-
-    left: 41.7%;
-    top: 50%;
-  }
-
-  .trophy .rect {
-
-    left: 30%;
-    bottom: 4%;
-  }
-
-}
-
-@media (max-width: 1921px) {
-
-  .trophy {
-
-    top: -135px;
-  }
-
-  .twozero {
-
-    left: 40.5%;
-    top: 47%;
-  }
-
-  .trophy .rect {
-
-    left: 29%;
-    bottom: 5%;
-  }
-
-}
-
-@media (max-width: 1800px) {
-
-  .twozero {
-
-    left: 38.8%;
-    top: 45.5%;
-  }
-
-  .trophy .rect {
-
-    left: 26%;
-    bottom: 8%;
-  }
-
-  .trophy {
-
-    top: -150px;
-  }
-
-}
-
-@media (max-width: 1700px) {
-
-  .trophy {
-
-    top: -160px;
-  }
-
-  .twozero {
-
-    left: 37.7%;
-    top: 44.5%;
-  }
-
-  .trophy .rect {
-
-    left: 22.5%;
-    bottom: 9%;
-  }
-
-}
-
-@media (min-width: 1700px) {
-
-
-  .analysis {
-
-    background-image: url('../img/analytics_bg_large.jpg');  
-  }
-}
-
-@media (max-width: 1630px) {
-
-    .ui {
-
-      background-size: contain;
-      background-position:center top;
-      background-repeat:no-repeat;
-      height: auto;
+    top: 380px;
+    left: 135px;
   }
 
   .ui .all_title {
 
-    margin: 150px 0 0 50px;
+    margin: 180px 0 0 160px;
   }
-
 
 }
 
-@media (max-width: 1600px) {
+
+
+@media screen and (min-width: 1600px) {
+
+  .ui .all_title {
+
+    margin: 180px 0 0 40px;
+  }
 
   .header h3 {
 
@@ -1222,33 +1134,357 @@ margin-right: 0px;
   }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1650px) {
+
+  .analysis_icons {
+      padding-top: 12%;
+  }
+
+  .ui {
+
+    height: 2200px;
+  }
+}
+
+@media (min-width: 1700px) {
+
+  .analysis {
+
+    background-image: url('../img/analytics_bg_large.jpg');  
+  }
 
   .trophy {
 
-    top: -180px;
+    top: -160px;
   }
 
   .twozero {
 
-    left: 35.5%;
-    top: 42.5%;
+    left: 37.7%;
+    top: 44.5%;
   }
 
   .trophy .rect {
 
-    left: 21%;
-    bottom: 10%;
+    left: 24%;
+    bottom: 8%;
+  }
+}
+
+@media (min-width: 1750px) {
+
+  .header h3 {
+  
+    margin: 210px 0 0 100px;
   }
 
-  #all_title_ch {
+  .header .rect {
+  
+    margin: 160px 0 0 55px;
+  }
 
-    top: 400px;
-    left: 135px;
+  .ui {
+
+    height: 2250px;
+  }
+}
+
+@media (min-width: 1800px) {
+
+   #white {
+
+    left: 21%;
+  }
+
+  #khaki {
+
+    left: 65%;
+  }
+
+  #brown {
+
+    left: 62%;
+  }
+
+  .ui .all_title {
+
+    margin: 220px 10px 0 0;
+  }
+
+  .twozero {
+
+    left: 38.8%;
+    top: 45.5%;
+  }
+
+  .trophy .rect {
+
+    left: 26%;
+    bottom: 8%;
+  }
+
+  .trophy {
+
+    top: -150px;
+  }
+}
+
+@media (min-width: 1900px) {
+
+   .ui {
+
+      height: 2350px;
+    }
+
+  .fonts {
+
+    padding: 0 0 0 25%;
+  }
+
+  .ui .all_title {
+
+    margin: 240px 20px 0 0;
+  }
+
+  .twozero {
+
+    left: 40%;
+    top: 46%;
+  }
+
+  .trophy .rect {
+
+    left: 28%;
+    bottom: 7%;
+  }
+
+  .trophy {
+
+    top: -130px;
+  }
+}
+
+@media (min-width: 1919px) {
+
+  .trophy {
+
+    top: -135px;
+  }
+
+  .twozero {
+
+    left: 40.5%;
+    top: 47%;
+  }
+
+  .trophy .rect {
+
+    left: 29%;
+    bottom: 5%;
+  }
+
+  .ui .all_title {
+
+    margin: 240px 30px 0 0;
   }
 
 }
 
+@media (min-width: 2000px) {
+
+  .analysis_icons {
+
+      padding-top: 17%;
+  }
+
+  .ui {
+
+    height: 2500px;
+  }
+
+  .ui .title {
+
+    margin-right: 30px;
+  }
+
+    .trophy {
+
+    top: -135px;
+  }
+
+  .twozero {
+
+    left: 41.3%;
+    top: 49%;
+  }
+
+  .trophy .rect {
+
+    left: 30%;
+    bottom: 4%;
+  }
+}
 
 
+
+/*------------------analysis section-----------------*/
+
+@media (min-width: 1400px) and (max-width: 1600px)
+{
+
+  .analysis .process {
+    margin: 290px 0 0 800px;
+  }
+
+   #aqua {
+
+    left: 59%;
+  }
+
+  #khaki {
+
+    left: 68%;
+  }
+
+   #brown {
+
+    left: 68%;
+  }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1769px)
+{
+
+  .analysis .process {
+    margin: 290px 0 0 48%;
+  }
+}
+
+@media (min-width: 1770px) and (max-width: 1840px)
+{
+
+  .analysis .process {
+    margin: 300px 0 0 48%;
+  }
+}
+
+@media (min-width: 1841px) and (max-width: 2000px)
+{
+
+  .analysis .process {
+    margin: 320px 0 0 48%;
+  }
+}
+
+/*--------------------ui-------------------*/
+
+
+@media (min-width: 1750px) and (max-width: 1800px)
+{
+  .ui .all_title {
+
+      margin: 190px 0 0 50px;
+    }
+}
+
+@media (min-width: 1700px) and (max-width: 1750px)
+{
+  .ui .all_title {
+
+      margin: 190px 0 0 65px;
+    }
+}
+
+@media (min-width: 1650px) and (max-width: 1700px)
+{
+  .ui .all_title {
+
+      margin: 190px 0 0 115px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1650px)
+{
+  .ui .all_title {
+
+      margin: 170px 0 0 30px;
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1600px)
+{
+  .ui .all_title {
+
+      margin: 170px 0 0 70px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1550px)
+{
+  .ui .all_title {
+
+      margin: 170px 0 0 130px;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1500px)
+{
+  .ui .all_title {
+
+      margin: 170px 0 0 170px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1450px)
+{
+  .ui .all_title {
+
+      margin: 170px 0 0 220px;
+    }
+}
+
+/*------------chairs-------------*/
+
+@media (min-width: 1401px) and (max-width: 1450px)
+{
+  
+ .trophy {
+
+    top: -200px;
+  }
+
+  .twozero {
+
+    left: 34%;
+    top: 380px;
+  }
+
+  .trophy .rect {
+
+    left: 18%;
+    bottom: 10%;
+  }
+}
+
+@media (min-width: 1451px) and (max-width: 1500px)
+{
+  
+ .trophy {
+
+    top: -200px;
+  }
+
+  .twozero {
+
+    left: 35%;
+    top: 390px;
+  }
+
+  .trophy .rect {
+
+    left: 18%;
+    bottom: 10%;
+  }
+}
 
