@@ -1,0 +1,545 @@
+.fonts {
+
+  padding: 0 0 0 270px;
+}
+
+#all_title_ch {
+  top: 380px;
+}
+
+.font_block h3 {
+
+  font-size: 26px;
+}
+
+.goal_task #task p {
+
+  width: 420px;
+}
+
+.twozero {
+
+  left: 400px;
+  top: 230px;
+}
+
+.sideblock p {
+
+  width: 250px;
+}
+
+
+.goal_task p {
+
+  width: 410px;
+}
+
+.header .rect {
+
+    margin: 120px 0 0 55px;
+}
+
+.header h1 {
+
+  font-size: 90px;
+  letter-spacing: 16px;
+}
+
+.header h3 {
+
+  margin: 190px 0 0 100px;
+}
+
+.analysis h1 {
+
+    text-align: center;
+    margin: -2% 0 0 0;
+    font-size: 110px;
+}
+
+.analysis {
+
+    margin-bottom: -5px;  
+}
+
+.analysis .process {
+    margin: 280px 0 10px 800px;
+}
+
+.analysis_icons  {
+
+  padding-top: 200px;
+}
+
+.analysis .block  {
+
+  width: 25%;
+}
+
+.analysis .block h2 {
+
+  font-size: 27px;
+}
+
+.twozero {
+
+	left: 470px;
+	top: 170px;
+}
+
+.colors {
+
+	margin-top: 10%;
+}
+
+.color_wrap {
+
+	width: 85%
+}
+
+#wires {
+    margin: 12% 0 0 10%;
+}
+
+#desktop {
+    margin: 70px 0 100px 0;
+}
+
+#tablet {
+    margin: 0 0 70px 0;
+}
+
+#mobile {
+    margin: 0 0 150px 0;
+}
+
+.trophy {
+
+  top: -200px;
+}
+
+.ui {
+
+  background-size: contain;
+  background-position:center top;
+  background-repeat:no-repeat;
+  height: auto;
+}
+
+.ui .all_title {
+
+    margin: 120px 0 0 0;
+}
+
+.ui .title {
+
+    margin-left: 70px;
+}
+
+#white  {
+
+	left: 13%;
+}
+
+#white p {
+    width: 80%;
+}
+
+#aqua {
+
+	left: 58%;
+}
+
+#khaki {
+
+    left: 69%;
+}
+
+#brown {
+
+    left: 67%;
+}
+
+#brown p {
+    width: 65%;
+}
+
+.side_sec {
+
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1350px) {
+
+  #white {
+      left: 10%;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+  #aqua {
+
+    left: 61%;
+  }
+
+  #khaki {
+
+    left: 72%;
+  }
+
+  #brown {
+
+    left: 68%;
+  }
+}
+
+
+
+@media (max-width: 1290px) {
+
+  .expr {
+
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .fonts, .side_sec, #typo {
+
+    display: block;
+
+  }
+
+  .sideblock p {
+
+    width: 400px;
+  }
+
+  #typo {
+
+    margin-bottom: 100px;
+  }
+
+  .fonts {
+
+    padding: 0 0 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .font_block {
+
+    text-align: center;
+  }
+
+  .analysis_icons {
+
+    padding-top: 160px;
+  }
+
+}
+
+
+@media (max-width: 1160px) {
+
+
+  .analysis_icons {
+
+    padding-top: 140px;
+  }
+
+  .ui .title h1 {
+    font-size: 100px;
+  }
+
+  .ui .title h2 {
+
+    font-size: 70px;
+  }
+
+  #slash {
+    display: none;
+  }
+
+  #white {
+      left: 6%;
+  }
+
+  #khaki {
+    left: 75%;
+  }
+
+  #brown {
+    left: 73%;
+  }
+
+}
+
+@media (max-width: 1055px) {
+
+  .header .rect {
+
+    margin: 180px 0 0 45px;
+    width: 245px;
+    height: 245px;
+  }
+
+   #white {
+      left: 3%;
+  }
+
+}
+
+@media (max-width: 1030px) {
+
+    .analysis .block {
+      width: 27%;
+  }
+
+}
+
+@media (max-width: 1025px) {
+
+  video {
+
+    max-width: 80%;
+  }
+
+   video {
+
+    height: 600px;
+  }
+
+  .analysis {
+    background: #000;
+    padding-bottom: 450px;
+  }
+
+  .analysis-top {
+    width: 100%;
+    background-image: url("../img/analytics-top-cropped.jpg"); 
+    background-size: contain;
+    background-position:center top;
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 90px 0 90px 0;
+  }
+
+  .analysis .process {
+    margin: 0;
+    padding: 0 0 0 480px;
+  }
+
+  .analysis h1 {
+
+    font-size: 90px;
+    margin-right: 10px;
+    margin-top: -30px;
+  }
+
+  .analysis_icons {
+    display: none;
+  }
+
+  .analysis_blocks {
+    flex-direction: column;
+    margin-top: 130px;
+  }
+
+  .analysis .block {
+    width: 80%;
+    margin-bottom: 130px;
+  }
+
+  .icon-hid {
+    display: block;
+    position: absolute;
+  }
+
+  #file {
+    left: 100px;
+    top: -100px;
+  }
+
+  #lens {
+    top: -80px;
+    left: 50px;
+  }
+
+  #bulb {
+
+    top: -100px;
+    left: 90px;
+  }
+
+  .twozero {
+    display: none;
+  }
+
+  .goal_task {
+    display: block;
+  }
+
+  #goal, #task {
+    width: 100%;
+  }
+    
+  #twoone {
+    margin-top: 0;
+  }
+
+  #wires {
+    margin-top: 120px;
+  }
+
+  .ui .all_title {
+    margin-top: 90px;
+  }
+
+  .ui .title {
+    margin-left: 55px;
+  }
+
+  .ui .process {
+    margin: 0 0 -35px 53%;
+  }
+
+  .ui .title h1 {
+    font-size: 100px;
+  }
+
+  .ui .title h2 {
+
+    font-size: 70px;
+  }
+
+  #slash {
+    display: none;
+  }
+
+  #aqua {
+    left: 63%;
+  }
+
+  #khaki {
+    left: 77%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  #swatches p {
+    width: 400px;
+  }
+
+  .color_scheme {
+    flex-direction: column;
+  }
+
+  #circle {
+    background-image: url('../img/piechart-small.png');
+    padding: 0;
+    margin-top: 140px;
+    margin-bottom: 120px;
+    height: 445px;
+    width: 427px;
+  }
+
+  .text_center {
+
+    margin-left: 175px;
+    margin-top: 200px;
+  }
+
+  .flying_desc {
+    position: static;
+    margin-left: 140px;
+    margin-bottom: 50px;
+  }
+
+  .color_icon {
+    width: 27px;
+    height: 27px;
+    border-radius: 27px;
+     box-shadow: 0 0 9px 0 #ccc;
+  }
+
+  #aqua .color_icon {
+    background-color: rgb(102,205,170);
+  }
+
+  #khaki .color_icon {
+    background-color: rgb(255,239,128);
+  }
+
+  #brown .color_icon {
+    background-color: rgb(41,30,17);
+  }
+
+  #white .color_icon {
+    background-color: rgb(255,255,255);
+  }
+
+}
+
+
+/*-------------chairs---------------*/
+
+@media (min-width: 1350px) and (max-width: 1400px)
+{
+  .twozero {
+    left: 33%;
+    top: 372px;
+  }
+
+  .trophy .rect {
+
+    left: 16%;
+    bottom: 90px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1350px)
+{
+  .twozero {
+    left: 32%;
+    top: 362px;
+  }
+
+  .trophy .rect {
+
+    left: 18%;
+    bottom: 90px;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1350px)
+{
+
+  .fonts {
+    padding: 0 0 0 230px;
+
+  }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1300px)
+{
+
+  .ux {
+    background-size: contain;
+    background-position:center top;
+    background-repeat:no-repeat;
+    height: auto;
+  }
+}
+
+
+
